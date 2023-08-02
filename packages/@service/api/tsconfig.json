@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "ESNext",
+    "baseUrl": "./src",
+    "noEmit": false,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": { "@/*": ["./*"] },
+    "target": "ESNext"
+  },
+  "plugins": [
+    {
+      "transform": "typescript-transform-paths"
+    }
+  ],
+  "exclude": ["**/node_modules", "**/dist"],
+  "include": ["src", "__tests__"]
+}

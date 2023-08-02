@@ -1,0 +1,12 @@
+
+> @service/web-client@0.0.1 build /home/joe/repos/connect-fastify-errors/packages/@service/web-client
+> unbuild;
+
+ℹ Building @service/web-client
+✔ Build succeeded for web-client
+  dist/index.cjs (total size: 370 B, chunk size: 370 B, exports: client, transport)
+
+  dist/index.mjs (total size: 288 B, chunk size: 288 B, exports: client, transport)
+
+Σ Total dist size (byte size): 1.26 kB
+

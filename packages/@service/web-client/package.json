@@ -1,0 +1,45 @@
+{
+  "name": "@service/web-client",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The service client for the web",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "👇required package scripts": "",
+    "build": "unbuild;",
+    "clean": "shx rm -rf ./dist",
+    "format": "echo \"@service/web-client `format` not implemented\"; exit 0;",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"@service/web-client `test` not implemented\"; exit 0;",
+    "☝️ required package scripts": ""
+  },
+  "dependencies": {
+    "@bufbuild/buf": "1.25.0",
+    "@bufbuild/connect": "0.11.0",
+    "@bufbuild/connect-web": "0.11.0",
+    "@bufbuild/protobuf": "1.3.0",
+    "@service/definition": "workspace:*"
+  },
+  "peerDependencies": {
+    "@bufbuild/protobuf": "1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5",
+    "unbuild": "1.2.1",
+    "shx": "0.3.4"
+  }
+}

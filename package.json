@@ -1,0 +1,9 @@
+{
+  "name": "connect-fastify-errors",
+  "scripts": {
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "1.10.9"
+  }
+}

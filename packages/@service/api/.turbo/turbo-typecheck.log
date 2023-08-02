@@ -1,0 +1,4 @@
+
+> @gateway/api@0.0.11 typecheck /home/joe/dopt/repos/dopt/services/@gateway/api
+> tsc --noEmit
+
