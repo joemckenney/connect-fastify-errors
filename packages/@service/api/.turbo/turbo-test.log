@@ -1,6 +1,0 @@
-
-> @gateway/api@0.0.2 test /home/joe/dopt/repos/dopt/services/@gateway/api
-> NODE_ENV=development dotenv-flow -- jest __tests__ --passWithNoTests
-
-dotenv-flow: "NODE_ENV" is already defined in `process.env` and will not be overwritten
-No tests found, exiting with code 0
