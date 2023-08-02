@@ -2,7 +2,7 @@ import { Code, ConnectError, ConnectRouter } from '@bufbuild/connect';
 import {
   Service,
   HealthCheckResponse_ServingStatus,
-} from '@gateway/definition';
+} from '@service/definition';
 
 
 export default (router: ConnectRouter) => {

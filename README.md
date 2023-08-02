@@ -1,7 +1,8 @@
 ## Steps to repro
 
 ```
-git clone git@github.com:joemckenney/connect-fastify-error.git;
+git clone git@github.com:joemckenney/connect-fastify-errors.git;
+cd connect-fastify-errors;
 fnm use;
 pnpm i;
 pnpm build;
